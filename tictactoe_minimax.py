@@ -94,9 +94,9 @@ class TicTacToe:
                         self.board[move] = 'X'
                         user_turn = False
                     except:
-                        print("Invalid move. Try again.")
+                        print("\nInvalid move. Try again.")
                 else:
-                    print("\nAI is thinking...")
+                    print("AI is thinking...")
                     move = self.get_best_move()
                     self.board[move] = 'O'
                     user_turn = True
